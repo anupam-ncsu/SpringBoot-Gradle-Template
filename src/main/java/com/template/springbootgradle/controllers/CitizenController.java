@@ -24,10 +24,7 @@ public class CitizenController {
 		
 	}
 	
-	@RequestMapping(method = RequestMethod.GET, value ="/citizen/{id}")
-	public Citizen getCitizen(@PathVariable("id") String id) {
-		return citizenSvc.getCitizen(id);
-	}
+
 	
 	@RequestMapping(method = RequestMethod.POST, value = "/citizen/set")
 	public void setCitizen(@RequestBody Citizen citizen){

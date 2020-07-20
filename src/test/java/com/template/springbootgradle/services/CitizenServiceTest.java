@@ -9,7 +9,7 @@ public class CitizenServiceTest {
 	
 	@Test
 	public void testAdd() {
-	    assertEquals(42, Integer.sum(19, 23));
+		assertEquals(42, Integer.sum(19, 23));
 	}
 
 }
